@@ -1,15 +1,18 @@
-import './Oven'
-import './Sink'
+import Oven from './Oven'
+import Sink from './Sink'
 
-function Kitchen (props) {
-  return (
+const Kitchen = () => {
+  return ( 
     <>
-    <div>
-        <h3>Kitchen</h3>
+      <div>
+        <p>Kitchen</p>
+        <div>
         <Oven />
+        <Sink/>
+        </div>
       </div>
     </>
-  )
+  );
 }
 
 // Must export the component's function (or class)
