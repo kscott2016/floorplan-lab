@@ -6,15 +6,22 @@ import Livingroom from './Livingroom'
 
 function App() {
   return (
-    <div>
+    <div className="wrapper">
+      <div className='row1'>
+      <div className="col1">
       <Bedroom numBed={1}/>
-      <Kitchen />
-      <Bedroom numBed={2}/>
+      <Bath size="full"/>
+      </div>
       <Livingroom />
+      <Kitchen />
+      </div>
+      <div className='row2'>
+      <div className='col1'>
+      <Bedroom numBed={2}/>
+      </div>
       <Bath size="half"/>
       <Bedroom numBed={3}/>
-      <Bath size="full"/>
-      
+      </div>
     </div>
   )
 }

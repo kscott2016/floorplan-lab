@@ -4,12 +4,14 @@ import Sink from './Sink'
 const Kitchen = () => {
   return ( 
     <>
-      <div className="kitchen">
-        <p>Kitchen</p>
-        <div>
+      <div class="kitchen-wrapper">
+      <div className='appliances'>
         <Oven />
         <Sink/>
-        </div>
+      </div>
+      <div className="kitchen">
+        <p>Kitchen</p>
+      </div>
       </div>
     </>
   );
