@@ -1,7 +1,5 @@
 #root {
-  
   margin: 0 auto;
-  /* padding: 2rem; */
   text-align: center;
 }
 
@@ -12,13 +10,11 @@ div {
   align-items: center;
 }
 
-
-
 .wrapper {
-    display: grid;
-    width:600px;
-    height:600px;
-    margin: auto;
+  display: grid;
+  width:600px;
+  height:600px;
+  margin: auto;
 }
 
 .row1{
@@ -43,12 +39,12 @@ div {
   flex-direction: column;
 }
 
- #bedroom-1{
-    height:70%;
-    justify-self: start;
-  }
+#bedroom-1{
+  height:70%;
+  justify-self: start;
+}
 
-  #bath-full{
+#bath-full{
     height: 30%;
   }
 

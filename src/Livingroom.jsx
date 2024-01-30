@@ -5,7 +5,6 @@ const Livingroom = (props) => {
       <p>Living Room</p>
     </div>
     </>
-   );
+  );
 }
- 
 export default Livingroom
